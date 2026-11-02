@@ -1,5 +1,13 @@
-fn main() {
-    let s1 = String::from("hello");
-    let _s2 = &s1;
-    println!("{}", s1);
+slint::include_modules!();
+
+fn main() -> Result<(), slint::PlatformError> {
+    let ui = AppWindow::new()?;
+
+    let ui_weak = ui.as_weak();
+    ui.on_request_increase_value(move || {
+        let ui = ui_weak.unwrap();
+        ui.set_counter(ui.get_counter() + 1);
+    });
+
+    ui.run()
 }
