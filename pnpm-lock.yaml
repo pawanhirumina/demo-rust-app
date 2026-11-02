@@ -1,0 +1,103 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      slint-ui:
+        specifier: ^1.18.1
+        version: 1.18.1
+
+packages:
+
+  '@slint-ui/slint-ui-binary-darwin-arm64@1.18.1':
+    resolution: {integrity: sha512-aEg0pStMoNN369TqmfBCAM2Ocqlj88PpnLkaETpdk+A1A8OvD+mCMfAlXJFTUGhmQYAtAxQdEWGE1pahe/c6Lw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@slint-ui/slint-ui-binary-linux-arm64-gnu@1.18.1':
+    resolution: {integrity: sha512-Ce/sixc1VgxblSgmJ4vOVCyXsWQB536A1q3YUrfBkSuMBJQPaJKvJyiF9ZLVaMfRmLmPmo3UpisadU0cy5nPzg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@slint-ui/slint-ui-binary-linux-arm64-musl@1.18.1':
+    resolution: {integrity: sha512-P0hOUq1DnEnXvE2Gmn0294CCeMvr7Q+UtDdOtaXhMsMtva0FYzNp/yP2AsQwu23LMeZRG3JHFYKTfL4emNqckw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@slint-ui/slint-ui-binary-linux-x64-gnu@1.18.1':
+    resolution: {integrity: sha512-YSTrgHkqn8KhJ+tlXrtghdR/S9dbGxxI+rqlk94FWaOYXhEHKYQ8yUcWxZn8gbT5b1PDbQm+S135Nwj6dZ/uFA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@slint-ui/slint-ui-binary-linux-x64-musl@1.18.1':
+    resolution: {integrity: sha512-BSXSRaiuWuSFqYb6ueOCVySBezBzr8ESeMPP9nZxevNBv9scZnAqL3BnbuSx6osW3f+Y8+DWz6RGwHqXb/WoHw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@slint-ui/slint-ui-binary-win32-arm64-msvc@1.18.1':
+    resolution: {integrity: sha512-Ku2+/ehd6Q187yFSzQ/WqP7bnAs2Q0jTN2fn6lX3bffLl/6i+8vdeTBdKlC/eLrtNe+V8xmQ24h7ZcE433SViQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@slint-ui/slint-ui-binary-win32-x64-msvc@1.18.1':
+    resolution: {integrity: sha512-eaaYBOG0WbGCTeRbMM6Bd7wUenCXIR7RuLa+Jir6zHDuDml6uf2m3qIPT4MppH7sLpuItoJDxsGAFJvV8w3LKA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  slint-ui@1.18.1:
+    resolution: {integrity: sha512-h7JWFltHjQ4HONmuPAc3wnf290usWCAJ/PBR1J3iFVnrFi1CGGziMlk7jUfWAdZbxsiLQjAxStYPzu3L8kOEtQ==}
+    engines: {node: '>= 10'}
+    peerDependencies:
+      slint-ui-dev: 1.18.1
+    peerDependenciesMeta:
+      slint-ui-dev:
+        optional: true
+
+snapshots:
+
+  '@slint-ui/slint-ui-binary-darwin-arm64@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-linux-arm64-gnu@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-linux-arm64-musl@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-linux-x64-gnu@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-linux-x64-musl@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-win32-arm64-msvc@1.18.1':
+    optional: true
+
+  '@slint-ui/slint-ui-binary-win32-x64-msvc@1.18.1':
+    optional: true
+
+  slint-ui@1.18.1:
+    optionalDependencies:
+      '@slint-ui/slint-ui-binary-darwin-arm64': 1.18.1
+      '@slint-ui/slint-ui-binary-linux-arm64-gnu': 1.18.1
+      '@slint-ui/slint-ui-binary-linux-arm64-musl': 1.18.1
+      '@slint-ui/slint-ui-binary-linux-x64-gnu': 1.18.1
+      '@slint-ui/slint-ui-binary-linux-x64-musl': 1.18.1
+      '@slint-ui/slint-ui-binary-win32-arm64-msvc': 1.18.1
+      '@slint-ui/slint-ui-binary-win32-x64-msvc': 1.18.1
